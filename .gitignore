@@ -2,3 +2,5 @@
 *.cmd
 *.jar
 *.jar
+.DS_Store
+.DS_Store
