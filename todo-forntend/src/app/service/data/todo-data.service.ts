@@ -25,6 +25,6 @@ export class TodoDataService {
     this.Request= "http://locahost:8080/users/"+username+"/todos/"+id;
     console.log("req here-"+this.Request);
     
-    return this.http.get<Todo>(this.Request);
+    return this.http.delete(this.Request);
   }
 }
